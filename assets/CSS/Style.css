@@ -1,63 +1,86 @@
-.background{
-    background-image: url("assets/images/website-background.png");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#background{
+    background-color: lightblue;
+    /* background: url("/Beach.jpg"); */
     width: 100%;
     height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
-.padding{
-    padding: 20px;
-    margin: 0 auto;
-}
+
 .header{
     background:white;
     position: fixed;
     top: 0px;
-    height:100px;
-    width: 100%;
+    height:80px;
+    width: 100vw;
+    border:solid green
 }
+
+.boxcontainer{
+    display:flex;
+    justify-content: space-around;
+    width: 1000px;
+    height:80px;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    border:solid yellow;
+    z-index:3
+}
+
 .namebox{
     color: white;
     text-align: center;
     font-family: 'Georgia';
-    width:200px;
-    background-color: #4aaaa5;
-    margin-left: 133px;
-    float:left;
+    font-size: 75%;
+    width:20vw;
+    background-color: #4aaaa5; 
+    padding: 25px 0
 }
-.APC{
-    color:#777777;
-    display: block
+
+.emptybox{
+    background:white;
+    width: 40vw;
+    border:solid black
 }
+
+.APCbox{
+    width:100px;
+    text-align: center;
+    border:solid red;
+    padding: 25px 0
+}
+
 .textbox{
-    background: grey;
+    background: white;
     color: #777777;
     width: 960px;
-    height: 900px;
+    height: 600px;
     padding: 20px;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 150px;
+    border: solid black
 }
-.flex-container {
-    display: flex;
-  }
-.footer1{
-    background:#4aaaa5;
-    height:10px;
-    width:100%;
-    float:bottom;
-    position:fixed;
-    bottom:50px;
-}
+
 .footer{
     background: grey;
     height: 50px;
-    width: 100%;
+    width: 100vw;
     float:bottom;
     position: fixed;
     bottom:0px;
     text-align: center;
     text-align: bottom;
     color: white;
+    /* z-index: 3; */
+    border-top: 8px solid #4aaaa5
 }
 p{
     font-size: 18px;
@@ -68,7 +91,4 @@ p{
 h2{
     color: #4aaaa5
 }
-.floatleft{
-    float: left;
-    font-family: 'Georgia'
-}
+
