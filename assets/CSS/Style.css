@@ -1,0 +1,74 @@
+.background{
+    background-image: url("assets/images/website-background.png");
+    width: 100%;
+    height: 100%;
+}
+.padding{
+    padding: 20px;
+    margin: 0 auto;
+}
+.header{
+    background:white;
+    position: fixed;
+    top: 0px;
+    height:100px;
+    width: 100%;
+}
+.namebox{
+    color: white;
+    text-align: center;
+    font-family: 'Georgia';
+    width:200px;
+    background-color: #4aaaa5;
+    margin-left: 133px;
+    float:left;
+}
+.APC{
+    color:#777777;
+    display: block
+}
+.textbox{
+    background: grey;
+    color: #777777;
+    width: 960px;
+    height: 900px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+.flex-container {
+    display: flex;
+  }
+.footer1{
+    background:#4aaaa5;
+    height:10px;
+    width:100%;
+    float:bottom;
+    position:fixed;
+    bottom:50px;
+}
+.footer{
+    background: grey;
+    height: 50px;
+    width: 100%;
+    float:bottom;
+    position: fixed;
+    bottom:0px;
+    text-align: center;
+    text-align: bottom;
+    color: white;
+}
+p{
+    font-size: 18px;
+    line-height: 28px;
+    padding: 50px;
+    color:#777777;
+}
+h2{
+    color: #4aaaa5
+}
+.floatleft{
+    float: left;
+    font-family: 'Georgia'
+}
