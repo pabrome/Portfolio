@@ -7,7 +7,7 @@
     background-color: lightblue;
     /* background: url("/Beach.jpg"); */
     width: 100%;
-    height: 100%;
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,8 @@
     top: 0px;
     height:80px;
     width: 100vw;
-    /* border:solid green */
+    border:solid black;
+    border-width: 0.2pt
 }
 
 .boxcontainer{
@@ -41,11 +42,14 @@
     font-size: 75%;
     width: 20vw;
     background-color: #4aaaa5; 
-    padding: 25px 15px 
+    padding: 25px 15px ;
+    border-bottom:solid black;
+    border-top: solid black;
+    border-width: 0.1pt
+
 }
 
 .emptybox{
-    background:white;
     width: 40vw;
     /* border:solid black */
 }
@@ -62,12 +66,11 @@ a, a:link, a:visited {
     text-decoration: none;
   }
 
-
 .textbox{
     background: white;
     color: #777777;
     width: 960px;
-    height: 600px;
+    height: 575px;
     padding: 20px;
     margin: 0 auto;
     position: relative;
@@ -102,4 +105,50 @@ h2{
 .mypic{
     float: left;
     padding: 16px 8px 8px 0px
+}
+
+.contactbox{
+    background: white;
+    color: #777777;
+    width: 960px;
+    height: 350px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    /* border: solid black */
+}
+
+.contactcontainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 960x;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+}
+
+#namebox{
+    height:20px;
+    font-size:10pt;
+}
+
+#emailbox{
+    height:20px;
+    font-size:10pt;
+}
+
+#messagebox{
+    height:100px;
+    font-size:10pt;
+}
+
+#submitbut{
+    width:75px;
+    height: 30px;
+    background-color: #4aaaa5;
+    font-size: 10pt;
+    color:white 
 }
